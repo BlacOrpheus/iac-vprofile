@@ -31,6 +31,6 @@ module "eks" {
     }
   }
 
-  # Disable KMS key creation
-  create_kms_key               = false   # Set this variable to false to prevent KMS key creation
+  
+  create_kms_key = false   # Set this variable to false to prevent KMS key creation
 }
